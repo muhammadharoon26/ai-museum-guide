@@ -9,6 +9,10 @@ qa_chain = get_qa_chain()
 class QueryRequest(BaseModel):
     question: str
 
+@router.get("/health")
+def health_check():
+    return {"status": "ok"}
+
 @router.post("/ask")
 def ask_question(req: QueryRequest):
     if not is_safe_query(req.question):
