@@ -6,3 +6,7 @@ faiss-cpu
 chromadb
 wikipedia
 python-dotenv
+langchain-community
+langchain-huggingface
+transformers
+torch
