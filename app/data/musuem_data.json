@@ -1,0 +1,13 @@
+[
+    {
+      "title": "Mona Lisa",
+      "description": "A portrait by Leonardo da Vinci, believed to be Lisa Gherardini.",
+      "tags": ["renaissance", "da vinci", "painting"]
+    },
+    {
+      "title": "Starry Night",
+      "description": "A famous oil on canvas by Vincent van Gogh depicting a swirling night sky.",
+      "tags": ["van gogh", "post-impressionism", "painting"]
+    }
+  ]
+  
